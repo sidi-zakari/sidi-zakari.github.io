@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIDI ZAKARI — Portfolio</title>
+  <meta name="description" content="Portfolio professionnel de SIDI Zakari — Développement Communautaire, Médiation Sociale, Suivi-Évaluation.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230E2140%22/><text x=%2250%22 y=%2266%22 font-size=%2250%22 fill=%22%23D8B26E%22 text-anchor=%22middle%22 font-family=%22Georgia%22>SZ</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+  <div class="page">
+
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+        <div class="photo-wrap" id="photo-wrap">
+          <img class="photo" id="profile-photo" src="" alt="Photo de profil de SIDI Zakari">
+          <div class="monogram" id="monogram" aria-hidden="true">SZ</div>
+        </div>
+        <h1 class="identity-name" id="identity-name">SIDI Zakari</h1>
+        <p class="identity-role" id="identity-role"></p>
+        <p class="identity-location" id="identity-location"></p>
+      </div>
+
+      <nav class="sidebar-nav" id="sidebar-nav" aria-label="Navigation principale"></nav>
+
+      <div class="sidebar-block" id="contact-block">
+        <h2 class="sidebar-heading" id="contact-heading"></h2>
+        <ul class="contact-list" id="contact-list"></ul>
+      </div>
+
+      <div class="sidebar-block" id="languages-block">
+        <h2 class="sidebar-heading" id="languages-heading"></h2>
+        <ul class="lang-list" id="lang-list"></ul>
+      </div>
+
+      <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Changer de langue">
+        <span id="lang-toggle-label">EN</span>
+      </button>
+    </aside>
+
+    <!-- ============ MAIN CONTENT ============ -->
+    <main class="content" id="main-content">
+
+      <section class="panel" id="profil" aria-labelledby="profil-heading">
+        <p class="eyebrow" id="profil-eyebrow"></p>
+        <h2 class="panel-heading" id="profil-heading"></h2>
+        <p class="panel-text" id="profil-text"></p>
+        <div class="route" id="route-wrap">
+          <p class="route-label" id="route-label"></p>
+          <ol class="route-list" id="route-list"></ol>
+        </div>
+      </section>
+
+      <section class="panel" id="realisations" aria-labelledby="realisations-heading">
+        <p class="eyebrow" id="realisations-eyebrow"></p>
+        <h2 class="panel-heading" id="realisations-heading"></h2>
+        <ul class="achievement-list" id="realisations-list"></ul>
+      </section>
+
+      <section class="panel" id="experiences" aria-labelledby="experiences-heading">
+        <p class="eyebrow" id="experiences-eyebrow"></p>
+        <h2 class="panel-heading" id="experiences-heading"></h2>
+        <div class="log" id="experiences-log"></div>
+      </section>
+
+      <section class="panel" id="formation" aria-labelledby="formation-heading">
+        <p class="eyebrow" id="formation-eyebrow"></p>
+        <h2 class="panel-heading" id="formation-heading"></h2>
+        <div class="log log--formation" id="formation-log"></div>
+      </section>
+
+      <section class="panel" id="certifications" aria-labelledby="certifications-heading">
+        <p class="eyebrow" id="certifications-eyebrow"></p>
+        <h2 class="panel-heading" id="certifications-heading"></h2>
+        <div class="stamp-grid" id="certifications-grid"></div>
+      </section>
+
+      <section class="panel" id="competences" aria-labelledby="competences-heading">
+        <p class="eyebrow" id="competences-eyebrow"></p>
+        <h2 class="panel-heading" id="competences-heading"></h2>
+        <h3 class="tag-group-label" id="skills-label"></h3>
+        <ul class="tag-list" id="skills-list"></ul>
+        <h3 class="tag-group-label" id="tools-label"></h3>
+        <ul class="tag-list tag-list--tools" id="tools-list"></ul>
+      </section>
+
+      <section class="panel panel--contact" id="contact" aria-labelledby="contactSection-heading">
+        <p class="eyebrow" id="contactSection-eyebrow"></p>
+        <h2 class="panel-heading" id="contactSection-heading"></h2>
+        <p class="panel-text" id="contactSection-text"></p>
+        <a class="cta-button" id="contactSection-cta" href="#"></a>
+      </section>
+
+      <footer class="footer">
+        <p id="footer-text"></p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
